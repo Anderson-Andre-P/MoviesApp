@@ -5,5 +5,5 @@ export const Container = styled.View``;
 export const Categories = styled.ScrollView.attrs({
   horizontal: true,
   showsHorizontalScrollIndicator: false,
-  contentContainerStyle: { paddingLeft: 24 },
+  contentContainerStyle: { paddingLeft: 20, paddingRight: 10 },
 })``;
