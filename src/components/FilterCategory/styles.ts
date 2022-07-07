@@ -1,13 +1,9 @@
 import styled from "styled-components/native";
 
-export const Container = styled.View`
-  margin-bottom: 20px;
-`;
+export const Container = styled.View``;
 
-export const Carousel = styled.ScrollView.attrs({
+export const Categories = styled.ScrollView.attrs({
   horizontal: true,
   showsHorizontalScrollIndicator: false,
   contentContainerStyle: { paddingLeft: 24 },
-})`
-  width: 100%;
-`;
+})``;
