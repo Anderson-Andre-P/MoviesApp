@@ -5,7 +5,6 @@ export const Container = styled.View``;
 
 export const SearchComponent = styled.View`
   padding: 60px 20px 20px;
-  background-color: red;
 `;
 
 export const Search = styled(SearchBar).attrs({
