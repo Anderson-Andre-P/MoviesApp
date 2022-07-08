@@ -12,6 +12,8 @@ import {
 import { ThemeProvider } from "styled-components";
 import theme from "./src/global/theme";
 import { Home } from "./src/screens/Home";
+import { NavigationContainer } from "@react-navigation/native";
+import { AppRoutes } from "./src/routes/app.routes";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -56,11 +58,13 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <View onLayout={onLayoutRootView} style={{ flex: 1 }}>
           <StatusBar
-            style="auto"
+            style="light"
             backgroundColor="transparent"
             translucent={true}
           />
-          <Home />
+          <NavigationContainer>
+            <AppRoutes />
+          </NavigationContainer>
         </View>
       </ThemeProvider>
     </>

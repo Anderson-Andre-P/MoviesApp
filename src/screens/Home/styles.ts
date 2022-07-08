@@ -10,7 +10,7 @@ export const Title = styled.Text`
   color: ${({ theme }) => theme.colors.text};
   font-size: 18px;
   margin-bottom: 20px;
-  padding: 60px 20px 0;
+  padding: 0px 20px 0;
 `;
 
 export const SubTitle = styled.Text`

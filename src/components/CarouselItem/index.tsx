@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, ImageSourcePropType } from "react-native";
+import { ImageSourcePropType } from "react-native";
 import { Container, CarouselFilm, Film, IndexFilm } from "./styles";
 
 interface Props {
